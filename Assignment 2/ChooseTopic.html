@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Topic - Silent Moon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #FAF7F2;
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header img {
+            width: 30px;
+            margin-right: 10px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: gray;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .topics-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .topic-card {
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: left;
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            align-items: flex-end;
+            height: 150px;
+            position: relative;
+        }
+        .topic-card img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+        }
+        .topic1 { background: #918ef4; }
+        .topic2 { background: #f4a261; }
+        .topic3 { background: #ff8c8c; }
+        .topic4 { background: #f4b400; }
+        .topic5 { background: #2d2d3a; }
+        .topic6 { background: #4caf50; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Silent Moon">
+        <span>Silent Moon</span>
+    </div>
+    <div class="title">What Brings You to Silent Moon?</div>
+    <div class="subtitle">Choose a topic to focus on:</div>
+    <div class="topics-container">
+        <div class="topic-card topic1">Reduce Stress</div>
+        <div class="topic-card topic2">Improve Performance</div>
+        <div class="topic-card topic3">Increase Happiness</div>
+        <div class="topic-card topic4">Reduce Anxiety</div>
+        <div class="topic-card topic5">Better Sleep</div>
+        <div class="topic-card topic6">Personal Growth</div>
+    </div>
+</body>
+</html>

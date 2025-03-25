@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #F8F9FC;
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .subtext {
+            color: gray;
+            margin-bottom: 20px;
+        }
+        .category-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .category-buttons button {
+            background: #E0E3F8;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .category-buttons .active {
+            background: #8A89FE;
+            color: white;
+        }
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #ccc;
+        }
+        .footer div {
+            text-align: center;
+            font-size: 12px;
+            color: gray;
+        }
+        .footer .active {
+            color: #8A89FE;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Meditate</div>
+    <div class="subtext">we can learn how to recognize when our minds are doing their normal everyday acrobatics.</div>
+    <div class="category-buttons">
+        <button class="active">All</button>
+        <button>My</button>
+        <button>Anxious</button>
+        <button>Sleep</button>
+        <button>Kids</button>
+    </div>
+    <div class="cards-container">
+        <div class="card">Daily Calm<br><small>APR 30 • PAUSE PRACTICE</small></div>
+        <div class="card">7 Days of Calm</div>
+        <div class="card">Anxiety Release</div>
+        <div class="card">More...</div>
+    </div>
+    <div class="footer">
+        <div>Home</div>
+        <div>Sleep</div>
+        <div class="active">Meditate</div>
+        <div>Music</div>
+        <div>Afsar</div>
+    </div>
+</body>
+</html>
